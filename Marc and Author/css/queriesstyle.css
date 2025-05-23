@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1199px) {
+	#main-menu, #sidegalery{
+	display: none;
+	}
+	.subheader{
+	padding: 5px 0 0;
+	}
+	.subheader .language{
+		position: relative;
+		right: -8px;
+	}
+	header{
+	position: relative;
+	background: #313840 !important;
+	padding: 15px 0 !important;
+	top:0 !important;
+	}
+	.detailcontent .heading{
+	margin: 5px 0 30px;
+	line-height: 1;
+	}
+	.detailcontent.text-right{
+	text-align: center !important;
+	}
+	.d-none-mobile{
+	display: none !important;
+	}
+	#showmobile{
+	font-size: 1.1rem;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	}
+	.menu-right.centered {
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	}
+	.blogcolumn, .servcices{
+		margin-top: 15px;
+	}
+	.subfooter{
+		display: block;
+	}
+	.subfooter .terms{
+		display: block;
+		margin-top: 10px;
+	}
+	/*main menu*/
+	.menu-right .iconright li:last-child{
+		padding-left: 20px;
+	}
+	.navbar-default-white.navbar-fixed-top div .p-3-vh{
+		display: block !important;
+	}
+	.logo.centered{
+		display: unset;
+	}
+	.white nav{
+		float: unset;
+		top: 0;
+		margin-top: 15px;
+	}
+	.white nav ul li{
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+	.white nav ul li a{
+		padding: 20px 10px 20px 10px;
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
+	}
+	.white nav ul li a.last{
+		border-bottom: 0;
+	}
+	.white nav ul ul{
+		position: relative;
+		top: 0px;
+	}
+	.white nav ul ul li{
+		width: 100%;
+		box-shadow: none;
+		border-bottom: 0;
+	}
+	.white nav ul ul li a{
+		line-height: unset;
+		padding: 20px 15px 0 10px;
+		border-bottom: 0;
+	}
+	#sidegalery{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.centered {
+		text-align: center;
+	}
+	.centered .detailcontent .icon{
+		margin: 30px auto;
+	}
+	.btn-content{
+		margin: 30px auto;
+	}
+	.imgbg-col{
+		position: relative;
+		max-height: 250px;
+		overflow: hidden;
+	}
+	.slick .item .bg::before, .listteam .detail{
+		opacity: 1;
+	}
+	.slickproject .item .icon{
+		opacity: 1;
+		bottom: 30px;
+	}
+	.slickproject .item .desc{
+		bottom: 30px;
+	}
+}
+@media only screen and (max-width: 768px) {
+ 
+}
+@media only screen and (max-width: 660px) {
+  
+}
+@media(max-width:414px) {
+
+}
+@media(max-width:360px) {
+
+}
+@media(max-width:320px) {
+ 
+}

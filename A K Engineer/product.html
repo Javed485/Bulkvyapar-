@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Industic - Factory and Manufacturing Html Template">
+  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <title>Products - A K Engineers</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cRubik:400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .categories h4{
+      background-color: grey;
+      color: #fff;
+      padding: 20px 10px;
+      font-size: 24px;
+    }
+    .product_list li{
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .categories .product_list li:hover {
+      background-color: #248ab2;
+      color: #000;
+    }
+    .categories .product_list li.active {
+      background-color: #248ab2;
+      color: #000;
+    }
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- =========================Header=========================== -->
+    <header id="header" class="header header-transparent">
+      <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/logo-dark.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__item with-dropdown">
+                <a href="index.html" class="nav__item-link">Home</a>
+              </li>
+              <li class="nav__item with-dropdown">
+                <a href="about-us.html" class="nav__item-link">About Us</a>
+              </li>
+              <li class="nav__item with-dropdown">
+                <a href="product.html" class="nav__item-link active">Machinery</a>
+              </li>
+              <li class="nav__item with-dropdown">
+                <a href="gallery.html" class="nav__item-link">Gallery</a>
+              </li>
+              <li class="nav__item with-dropdown">
+                <a href="services.html" class="nav__item-link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="contact.html" class="nav__item-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-modules">
+            <ul class="list-unstyled d-flex align-items-center modules__btns-list">
+              <li class="d-none d-lg-block">
+                <div class="module__btn module__btn-phone d-flex align-items-center">
+                  <i class="icon-phone mr-3"></i>
+                  <div>
+                    <span class="d-block">Call Us:</span>
+                    <a href="tel:+91 9289622449">+91 9289622449</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========================page title =========================== -->
+    <div class="carousel owl-carousel carousel-dots" data-slide="1" data-slide-md="1" data-slide-sm="1"
+    data-autoplay="false" data-nav="false" data-dots="false" data-space="30" data-loop="false" data-speed="800">
+      <div class="project-item">
+        <div class="project__img bg-overlay">
+          <img src="assets/images/page-titles/prod.jpg" alt="background">
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================= Products =========================  -->
+    <section id="careers" class="careers pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+            <div class="heading heading-3 text-center mb-40">
+              <span class="heading__subtitle">Our Machinery!</span>
+              <h2 class="heading__title">A Leading Industrial & Manufacturing Company, Serving Since 2011.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="categories">
+              <h4>Categories</h4>
+              <ul class="product_list">
+                <li class="tablinks" onclick="showProduct(event, 'cat_1')" id="defaultOpen">Pipe Cutting Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_2')">Copy Lathe Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_3')">Hydraulic Coping Attachment</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_4')">Paper Tube Cutting Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_5')">Pipe Chamfering Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_6')">Blade Grinding Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_7')">Pipe Notching Machine</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_8')">Rotary Cylinder</li>
+                <li class="tablinks" onclick="showProduct(event, 'cat_9')">Saw Blades</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-9 col-lg-9">
+            <!-- Categories 1 -->
+            <div id="cat_1" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item" data-toggle="modal" data-target="#product_1">
+                      <div class="project__img">
+                        <img src="assets/images/product/Pipe Cutting Machine/AKE-315-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">315 Semi Automatic Pipe Cutting Machine</a></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_2">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/AKE-325-350-AT-S-Automatic-Pipe-Bar-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">325-350-AT-S-Automatic Pipe Bar Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_3">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/AKE-350-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">350 Semi Automatic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_4">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/AKE-375-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">375 Semi Automatic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_5">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/AKE-375-Slant-Head-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">375 Slant Head Semi Automatic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_6">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/Ake-485-1-Axis-Fully-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">485-1-Axis Fully Automatic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_7">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/Ake-485-2-Axis-Fully-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">485-2-Axis Fully Automatic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_8">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/CNC-Auto-Lathe-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">CNC-Auto Lathe Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_9">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/JE-400VS-Semi-Automatic-Hydraulic-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">JE-400VS Semi Automatic Hydraulic Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img" data-toggle="modal" data-target="#product_10">
+                      <img src="assets/images/product/Pipe Cutting Machine/Laser-Pipe-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">Laser Pipe Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item" data-toggle="modal" data-target="#product_11">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Cutting Machine/Pipe-Bar-Cutting-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">Pipe Bar Cutting Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Categories 2 -->
+            <div id="cat_2" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Copy Lathe Machine/Industrial-Copy-Lathe-Machine.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Industrial Copy Lathe Machine</a></h4>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Categories 3 -->
+            <div id="cat_3" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Hydraulic Coping Attachment/Hydraulic-Drilling-Attachment-for-Lathe.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Hydraulic Drilling Attachment for Lathe</a></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img">
+                      <img src="assets/images/product/Hydraulic Coping Attachment/Hydraulic-Lathe-Tracer.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">Hydraulic Lathe Tracer</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 4 -->
+            <div id="cat_4" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Paper Tube Cutting Machine/Paper-Tube-Cutting-Machine.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Paper Tube Cutting Machine</a></h4>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 5 -->
+            <div id="cat_5" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Pipe Chamfering Machine/AKE-110AC-Semi-Automatic-Pipe-Chamfering-Machine.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">110AC Semi Automatic Pipe Chamfering Machine</a></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Chamfering Machine/AKE-80AC-Semi-Automatic-Pipe-Chamfering-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">80AC Semi Automatic Pipe Chamfering Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Chamfering Machine/JE-150AC-Semi-Automatic-Pipe-Chamfering-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">JE-150AC Semi Automatic Pipe Chamfering Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 6 -->
+            <div id="cat_6" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Blade Grinding Machine/Industrial-Blade-Grinding-Machines.jpg" alt="project img" >
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Industrial Blade Grinding Machines</a></h4>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 7 -->
+            <div id="cat_7" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Pipe Notching Machine/Industrial-Semi-Automatic-Pipe-Notching-Machine.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Industrial Semi Automatic Pipe Notching Machine</a></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img">
+                      <img src="assets/images/product/Pipe Notching Machine/Semi-Automatic-Pipe-Notching-Machine.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">Semi Automatic Pipe Notching Machine</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 8 -->
+            <div id="cat_8" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Rotary Cylinder/Hydraulic-Rotary-Cylinder.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Hydraulic Rotary Cylinder</a></h4>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 9 -->
+            <div id="cat_9" class="tabcontent">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="project-item">
+                      <div class="project__img">
+                        <img src="assets/images/product/Saw Blades/Circular-Saw-Blade.jpg" alt="project img">
+                      </div>
+                      <div class="project__content">
+                        <h4 class="project__title"><a href="#">Circular Saw Blade</a></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="project-item">
+                    <div class="project__img">
+                      <img src="assets/images/product/Saw Blades/HSS-Saw-Blades.jpg" alt="project img">
+                    </div>
+                    <div class="project__content">
+                      <h4 class="project__title"><a href="#">HSS Saw Blades</a></h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="project-item">
+                  <div class="project__img">
+                    <img src="assets/images/product/Saw Blades/TCT-Saw-Blades.jpg" alt="project img">
+                  </div>
+                  <div class="project__content">
+                    <h4 class="project__title"><a href="#">TCT Saw Blades</a></h4>
+                  </div>
+                </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================Modal========================== -->
+    <!-- product_1 -->
+    <div class="modal fade" id="product_1" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+			  <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Description</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row"> 
+              <div class="col-12 col-md-6">
+                <div class="popup-image">
+                  <img src="assets/images/product/Pipe Cutting Machine/AKE-315-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Description_section">
+                  <h5>315 Semi Automatic Pipe Cutting Machine</h5>
+                  <p class="price font-weight-bold text-danger">Rs: 2,50,000 / Set</p>
+                  <div class="sub-products">
+                    <div>General Use</div>
+                    <div>Industrial</div>
+                    <div>Material</div>
+                    <div>Steel</div>
+                    <div>Automatic</div>
+                    <div>Yes</div>
+                    <div>Features</div>
+                    <div>High Efficiency</div>
+                    <div>Delivery Time</div>
+                    <div>10 Days</div>
+                    <div>Domestic Market</div>
+                    <div>All India</div>
+                  </div>
+                  <form>
+                    <div class="form-group mt-3">
+                      <label>Phone Number</label>
+                      <input type="number" class="form-control" placeholder="Enter Your Number" id="number">
+                    </div>
+                    <div class="text-right">
+                      <button type="button" class="btn btn__primary">Send Enquiry</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+		</div>
+
+    <!-- product_2 -->
+    <div class="modal fade" id="product_2" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+			  <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Description</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row"> 
+              <div class="col-12 col-md-6">
+                <div class="popup-image">
+                  <img src="assets/images/product/Pipe Cutting Machine/AKE-325-350-AT-S-Automatic-Pipe-Bar-Cutting-Machine.jpg" alt="project img">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Description_section">
+                  <h5>325-350-AT-S-Automatic Pipe Bar Cutting Machine</h5>
+                  <p class="price font-weight-bold text-danger">Rs: 2,50,000 / Set</p>
+                  <div class="sub-products">
+                    <div>General Use</div>
+                    <div>Industrial</div>
+                    <div>Material</div>
+                    <div>Steel</div>
+                    <div>Automatic</div>
+                    <div>Yes</div>
+                    <div>Features</div>
+                    <div>High Efficiency</div>
+                    <div>Delivery Time</div>
+                    <div>10 Days</div>
+                    <div>Domestic Market</div>
+                    <div>All India</div>
+                  </div>
+                  <form>
+                    <div class="form-group mt-3">
+                      <label>Phone Number</label>
+                      <input type="number" class="form-control" placeholder="Enter Your Number" id="number">
+                    </div>
+                    <div class="text-right">
+                      <button type="button" class="btn btn__primary">Send Enquiry</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+		</div>
+
+    <!-- product_3 -->
+    <div class="modal fade" id="product_3" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+			  <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Description</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row"> 
+              <div class="col-12 col-md-6">
+                <div class="popup-image">
+                  <img src="assets/images/product/Pipe Cutting Machine/AKE-350-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Description_section">
+                  <h5>350 Semi Automatic Pipe Cutting Machine</h5>
+                  <p class="price font-weight-bold text-danger">Rs: 2,50,000 / Set</p>
+                  <div class="sub-products">
+                    <div>General Use</div>
+                    <div>Industrial</div>
+                    <div>Material</div>
+                    <div>Steel</div>
+                    <div>Automatic</div>
+                    <div>Yes</div>
+                    <div>Features</div>
+                    <div>High Efficiency</div>
+                    <div>Delivery Time</div>
+                    <div>10 Days</div>
+                    <div>Domestic Market</div>
+                    <div>All India</div>
+                  </div>
+                  <form>
+                    <div class="form-group mt-3">
+                      <label>Phone Number</label>
+                      <input type="number" class="form-control" placeholder="Enter Your Number" id="number">
+                    </div>
+                    <div class="text-right">
+                      <button type="button" class="btn btn__primary">Send Enquiry</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+		</div>
+
+    <!-- product_4 -->
+    <div class="modal fade" id="product_4" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+			  <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Description</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row"> 
+              <div class="col-12 col-md-6">
+                <div class="popup-image">
+                  <img src="assets/images/product/Pipe Cutting Machine/AKE-375-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Description_section">
+                  <h5>375 Semi Automatic Pipe Cutting Machine</h5>
+                  <p class="price font-weight-bold text-danger">Rs: 2,70,000 / Set</p>
+                  <div class="sub-products">
+                    <div>General Use</div>
+                    <div>Industrial</div>
+                    <div>Material</div>
+                    <div>Steel</div>
+                    <div>Automatic</div>
+                    <div>Yes</div>
+                    <div>Features</div>
+                    <div>High Efficiency</div>
+                    <div>Delivery Time</div>
+                    <div>10 Days</div>
+                    <div>Domestic Market</div>
+                    <div>All India</div>
+                  </div>
+                  <form>
+                    <div class="form-group mt-3">
+                      <label>Phone Number</label>
+                      <input type="number" class="form-control" placeholder="Enter Your Number" id="number">
+                    </div>
+                    <div class="text-right">
+                      <button type="button" class="btn btn__primary">Send Enquiry</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+		</div>
+
+    <!-- product_5-->
+    <div class="modal fade" id="product_5" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+			  <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Description</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row"> 
+              <div class="col-12 col-md-6">
+                <div class="popup-image">
+                  <img src="assets/images/product/Pipe Cutting Machine/AKE-375-Slant-Head-Semi-Automatic-Pipe-Cutting-Machine.jpg" alt="project img">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="Description_section">
+                  <h5>375 Slant Head Semi Automatic Pipe Cutting Machine</h5>
+                  <p class="price font-weight-bold text-danger">Rs: 2,50,000 / Set</p>
+                  <div class="sub-products">
+                    <div>General Use</div>
+                    <div>Industrial</div>
+                    <div>Material</div>
+                    <div>Steel</div>
+                    <div>Automatic</div>
+                    <div>Yes</div>
+                    <div>Features</div>
+                    <div>High Efficiency</div>
+                    <div>Delivery Time</div>
+                    <div>10 Days</div>
+                    <div>Domestic Market</div>
+                    <div>All India</div>
+                  </div>
+                  <form>
+                    <div class="form-group mt-3">
+                      <label>Phone Number</label>
+                      <input type="number" class="form-control" placeholder="Enter Your Number" id="number">
+                    </div>
+                    <div class="text-right">
+                      <button type="button" class="btn btn__primary">Send Enquiry</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+		</div>
+
+    <!-- ========================Footer========================== -->
+    <footer id="footer" class="footer footer-1">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about  mb-30">
+              <div class="footer__widget-content">
+                <img src="assets/images/logo/logo-light.png" alt="logo">
+                <p>A K Engineers Established in the year 2011, A K Engineers is a renowned Wholesale Trader of high quality Industrial Machinery comprising Semi-Automatic Pipe Cutting Machine, Fully Automatic Pipe Cutting Machine, Hydraulic Pipe Cutting Machine, HSS Saw Blades, TCT Saw Blades, Pipe Chamfering Machines, Blade Grinding Machines, etc. </p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">Company</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="product.html">Machinery</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="certificate.html">Certificates</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">Additional Business</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Retail & Consumer</a></li>
+                    <li><a href="#">Service Provider</a></li>
+                    <li><a href="#">Supplier</a></li>
+                    <li><a href="#">Distributor</a></li>
+                    <li><a href="#">Manufacturer</a></li>
+                    <li><a href="#">Wholesaler</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer__widget footer__widget-about">
+              <h6 class="footer__widget-title">Quick Connect</h6>
+              <div class="footer__widget-content">
+                <p>RZ- 61A, Gupta Market, Najafgarh,<br> New Delhi-110043, Delhi, India</p>
+                <p>Mail: <a href="mailto:akengineers2011@gmail.com">akengineers2011@gmail.com</a></p>
+                <p>Mail: <a href="mailto:tbsinghdelhi@gmail.com">tbsinghdelhi@gmail.com</a></p>
+                <p>Phone No: <a href="tel://+91 9289622449">91+ 9289622449 </a></p>
+                <p>Phone No: <a href="tel://+91 9818272449">91+ 9818272449 </a></p>
+              </div>
+              <div class="social__icons">
+                <a href="https://www.facebook.com/AKEngineers1/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/tejbaha02118995?s=08" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/akengineers2011/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@akengineers" target="_blank"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-6">
+              <div class="footer__copyright">
+                <nav>
+                  <ul class="list-unstyled footer__copyright-links d-flex flex-wrap">
+                    <li>&copy; 2023 A K Engineers. All Right Reserved</span></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-6">
+              <div class="footer__copyright footer__bulkvyapar">
+                <nav>
+                  <ul class="list-unstyled footer__copyright-links">
+                    Designed By <a href="https://bulkvyapar.com/">Bulkvyapar Network Pvt. Ltd.</a>
+                    <img class="bulk_img" src="assets/images/logo/bulkvyapar.jpg" >
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+  </div>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function showProduct(evt, productName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(productName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+</html>
